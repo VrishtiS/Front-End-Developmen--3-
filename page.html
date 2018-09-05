@@ -1,0 +1,195 @@
+<DOCTYPE! HTML>
+<html>
+<meta name = "viewport" content="width=device-width, initial-scale=1">
+<head>
+  <title>Page</title>
+ 
+ <style>
+  body{background-color: White;}
+  #header{background-color :LightGray;}
+  #logo{background-color : rgb(255, 255, 255);
+    margin: -32px 171px 0px 200px;}
+  #logo_text{ font: normal 150% 'century gothic', arial, sans-serif;}
+  .heading{color : Blue;}
+#logo_text a:hover .heading{color: Gray;}
+#menubar{background-color : rgb(240, 240, 240);
+       margin: -20px 171px 11px 201px;}
+#menu {
+  overflow: hidden;
+  background-color: #f3f3f3;
+  display: inline-flex;
+  list-style : none;
+}
+
+#menu a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+#menu a:hover {
+  background-color: LightGray;
+  color: pink;
+}
+  h1, h2, h3, h4, h5, h6 
+{ color: #362C20;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;}
+
+h1, h2, h3
+{ font: normal 170% 'century gothic', arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #000;}
+
+h2
+{ font-size: 160%;
+  padding: 9px 0 5px 0;
+  color: #009FBC;}
+
+h3
+{ font-size: 140%;
+  padding: 5px 0 0 0;}
+
+h4, h6
+{ color: #009FBC;
+  padding: 0 0 5px 0;
+  font: normal 110% arial;
+  text-transform: uppercase;}
+
+h5, h6
+{ color: #888;
+  font: normal 95% arial;
+  letter-spacing: normal;
+  padding: 0 0 15px 0;}
+#menu a.selected {
+  background-color: red;
+  color: white;}
+#banner {
+    background: transparent url(banner.jpg) no-repeat;
+    width: 860px;
+    height: 180px;
+    margin-bottom: 20px;
+    border: 10px solid #DDD;
+	    margin: 24px 0px 9px 196px;
+}
+#sidebar_container {
+    float: left;
+    width: 224px;
+	    margin: 11px 0px 0px 201px;
+}
+.sidebar{
+  border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 186px;
+    height: 264px;  }
+#content {
+    text-align: left;
+    width: 620px;
+    padding: 0 0 0 5px;
+    float: right;
+	margin: -8px 165px 0px 0px;
+}
+#footer {
+    width: 100%;
+    font-size: 100%;
+    height: 80px;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background: #CCC;
+    border-top: 1px solid #AAA;
+    color: #FFF;
+    margin: 814px 0 0px 7px;}
+	</style>
+
+  </head>
+<body>
+<div id = "main">
+
+    <div id = "header">
+        <div id = "logo">
+            <div id = "logo_text">
+			<h1><a href = "index.html">simple<span class = "heading">Page</span></a></h1>
+			<p style = "color: Gray;">Simple.Contemporary.Website Template.</p>
+			</div>
+        </div>
+		<div id = "menubar">
+		    <ul id = "menu">
+		        <li class = "selected"><a href = "index.html">Home</a></li>
+		        <li><a href = "examples.html">Examples</a></li>
+		        <li><a href = "page.html">A Page</a></li>
+		        <li><a href = "another_page.html">Another Page</a></li>
+		        <li><a href = "contact.html">Contact Us</a></li>
+		    </ul>
+		</div>
+	</div>
+
+<div id = "site_content">
+    <div id = "banner"></div>
+    <div id = "sidebar_container">
+	    <div class = "sidebar">
+		    <div class = "sidebar_top"></div>
+			<div class = "sidebar_item">
+			    <h3>Latest News</h3>
+				<h4>New Website Launched</h4>
+				<h5>February 1st, 2014</h5>
+				<p>2014 sees the redesign of our website. Take a look around and let us know what you think.<br><a href="#">Read more</a></p>
+			</div>
+			<div class = "sidebar_base"></div>
+			</div>
+		<div class = "sidebar">
+		    <div class = "sidebar_top"></div>
+			<div class = "sidebar_item">
+			    <h3>Useful Links</h3>
+				<ul>
+				    <li><a href = "#">Link 1</a></li>
+					<li><a href = "#">Link 2</a></li>
+					<li><a href = "#">Link 3</a></li>
+					<li><a href = "#">Link 4</a></li>
+            	</ul>
+            </div>	
+            <div class= "sidebar_base"></div>
+        </div>	
+        <div class = "sidebar">
+		<div class = "sidebar_top"></div>
+		<div class = "sidebar_item">
+		    <h3>Search</h3>
+			<form method = "post" action = "#" id = "search_form">
+			<p>
+			    <input class = "search" type = "text" name = "search_field" value = "Enter Keywords...">
+				<input name = "search" type = "image" style = "border: 0; margin: 0 0 -9px 5px;" src = "style/search.png" alt = "Search" title = "Search">
+			</p>
+            </form>
+        </div>	
+        <div class = "sidebar_base"></div>
+        </div>
+		</div>
+        <div id="content">
+            <h1>Welcome to the simplestyle_blue_trees template</h1>
+            <p>This standards compliant, simple, fixed width website template is released as an 'open source' design (under a <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>), which means that you are free to download and use it for anything you want (including modifying and amending it). All I ask is that you leave the 'design from HTML5webtemplates.co.uk' link in the footer of the template, but other than that...</p>
+            <p>This template is written entirely in <strong>HTML5</strong> and <strong>CSS</strong>, and can be validated using the links in the footer.</p>
+            <p>You can view more free HTML5 web templates <a href="http://www.html5webtemplates.co.uk">here</a>.</p>
+            <p>This template is a fully functional 5 page website, with an <a href="examples.html">examples</a> page that gives examples of all the styles available with this design.</p>
+            <h2>Browser Compatibility</h2>
+            <p>This template has been tested in the following browsers:</p>
+        <ul>
+            <li>Internet Explorer 9</li>
+            <li>FireFox 25</li>
+            <li>Google Chrome 31</li>
+        </ul>
+      </div>		
+	</div>
+<div id = "content_footer"></div>
+
+<div id = "footer">
+      <p><a href="index.html">Home</a> | <a href="examples.html">Examples</a> | <a href="page.html">A Page</a> | <a href="another_page.html">Another Page</a> | <a href="contact.html">Contact Us</a></p>
+      <p>Copyright © simplestyle_blue_trees | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+</div>
+
+
+</div>
+</body>
+</html>
+
+               
